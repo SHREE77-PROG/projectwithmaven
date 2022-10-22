@@ -12,5 +12,6 @@
 <property name="hbm2ddl.auto">create</property>
 <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
 <mapping class="com.tut.Student"/>
+<mapping class="com.tut.Address"/>
 </session-factory>
 </hibernate-configuration>
